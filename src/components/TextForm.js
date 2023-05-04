@@ -58,6 +58,12 @@ export default function TextForm(props) {
     
     }
 
+    const HandleCopy = () => {
+        var text = document.getElementById("Text")
+        text.select();
+        navigator.clipboard.writeText(text.value);
+    }
+
     
     //word variable to found word count
     let wordCount = Text.split(" ").filter((element)=>{return element.length!== 0}).length
@@ -65,7 +71,7 @@ export default function TextForm(props) {
 
   return (
 
-    <div >
+    <div>
 
     
         
@@ -81,6 +87,7 @@ export default function TextForm(props) {
                 <button className="btn btn-primary mx-1 my-1" onClick={HandleLocase}>convert to lowercase</button>
                 <button className="btn btn-primary mx-1 my-1" onClick={HandleRvexsp}>remove extra space</button>
                 <button className="btn btn-primary mx-1 my-1" onClick={Handle1stc}>capitalize per word</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={HandleCopy}>copy text</button>
                 
 
                  

@@ -61,12 +61,12 @@ function App() {
   return (
     <>
   <NavBar Title="TextEditor" About="About us" mode={mode} toggleMod={toggleMode}/>
-  <Alert alert={alert}/>
+  <Alert alert={alert}  />
   
     
       <Routes>
         <Route exect path="/" element={<TextForm heading="Enter your text to analyse" style={toggleMode} mode={mode} showAlert={showAlert}/>} />
-        <Route exect path="/about" element={<About />} />
+        <Route exect path="/about" element={<About mode={mode}/>} />
       </Routes>
     
 </>
