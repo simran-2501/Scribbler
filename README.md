@@ -1,6 +1,7 @@
 <h1>Text Editor<h1>
-<p>This is a simple text editor that allows you to create, edit, and save text files on your computer.</p>
-<p> The editor is built using JavaScript, Node.js, and Electron, and runs on Windows, macOS, and Linux.</p>
+<p> <small>This is a simple text editor that allows you to create, edit, and save text files on your computer. </small></p>
+<p> <small>This is a simple text editor that allows you to create, edit, and save text files on your computer. </small></p>
+<p> <small> The editor is built using JavaScript, Node.js, and Electron, and runs on Windows, macOS, and Linux. </small></p>
 
 <h2>Features<h2>
 <p>
